@@ -12,8 +12,8 @@ Problem is, that when you enter their birthday and let's say it's 1985-01-01 the
 To solve this problem I've created a small pythonscript using the [TaskLib](https://github.com/robgolding/tasklib) library to check for tasks which have a due date before yesterday in the project:priv.bday. 
 The script then deletes the tasks that match this. 
 
-Add a simple cronjob for a check every 90minutes. This is overkill, but at least then it's out of the way.. for example : 
-> */90 * * * * python3 /PATH/TO/bday-until.py
+Add a simple cronjob for a check every 30minutes. This is overkill, but at least then it's out of the way.. for example : 
+> *30 * * * * python3 /PATH/TO/bday-until.py
 
 # Dependencies
 - [Taskwarrior](www.taskwarrior.org)
