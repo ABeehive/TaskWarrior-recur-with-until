@@ -17,7 +17,8 @@ day = datetime.date.today().day
 today = date(year, month, day)
 # Here you can choose when you want to delete tasks. If due was -1 or -2, 4, 20 days whatever you want)
 yesterday = today - timedelta(days = 1) 
-with open(todo, 'w'): pass
+# Uncomment the following if you first want to check! (see below)
+# with open(todo, 'w'): pass
 
 # Fill in your path to your Taskwarrior database
 
